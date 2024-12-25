@@ -21,7 +21,7 @@ body {
 
 
 .container {
-  box-sizing: border-box; /* Include padding in width/height */
+  box-sizing: border-box;
   width: min(60%, 28.12em);
   position: absolute;
   display: flex;
