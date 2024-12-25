@@ -118,3 +118,19 @@ header h2 {
   font-weight: 700;
   margin-bottom: 10px;
 }
+@media (max-width: 650px) {
+  .container {
+    width: 90%;
+    height: 50%;
+  }
+  .input-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+  }
+  input,button{
+    width: 90%;
+  }
+}
